@@ -18,8 +18,6 @@ products = pd.DataFrame({
     "Category": ["Electronics", "Electronics", "Electronics"]
 })
 
-# print(orders)
-# print(products)
 
 df = pd.merge(orders,products,on="Product_ID",how="inner")
 
